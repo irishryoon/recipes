@@ -16,5 +16,8 @@ This project works on (1) creating a recommendation system for cooking ingredien
 ## Data
 This project uses data from the following sources.  
 1. "data/recipe-ingredients-dataset": "Recipe Ingredients Dataset" from <a href="https://www.kaggle.com/kaggle/recipe-ingredients-dataset/">Kaggle</a>   
-2. "data/epicurious": "Epicurious - Recipes with Rating and Nutrition" dataset from <a href="https://www.kaggle.com/hugodarwood/epirecipes"> Kaggle </a>
+2. "data/epicurious": "Epicurious - Recipes with Rating and Nutrition" dataset from <a href="https://www.kaggle.com/hugodarwood/epirecipes"> Kaggle </a>  
+
+## Conda environment
+* Please use the conda environment in "recipes.yml"
 
