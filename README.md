@@ -6,7 +6,12 @@ This project works on (1) creating a recommendation system for cooking ingredien
 ## Projects 
 ### 1. Ingredients recommendation  
 * This project builds a recommendation system based on existing ingredients.  
-* To view code, please look at "ingredients_recommendation.ipynb"
+* To view code, please look at "ingredients_recommendation.ipynb"  
+* After cleaning up the data, I explore three different models for building an ingredients recommendation model. The three models are:
+	* non-negative matrix factorization
+	* word embeddings 
+	* association rule mining  
+* I am in the process of building an app for the ingredients recommender. 
 
 ### 2. Recipe generation 
 * This project uses LSTM to generate recipes. 
