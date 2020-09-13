@@ -1,5 +1,4 @@
 h5py
-numpy
-pickle
+numpy==1.18
 streamlit
 tensorflow
