@@ -26,10 +26,10 @@ def load_cuisine():
 
 @st.cache(show_spinner = False)
 def load_tokenizer():
-    with open('tokenizer.pickle', 'rb') as handle:
+    with open('tokenizer_small.pickle', 'rb') as handle:
         t = pickle.load(handle)
     index_to_words=dict(map(reversed,t.word_index.items()))
-    n_words = len(t.word_index) 
+    n_words = t.num_words-1 
     
     # Because of "multiselect" limit, only present frequently occurring ingredients
     freq_ing = [key for (key, value) in t.word_counts.items() if value > 40]
@@ -71,6 +71,11 @@ def main():
 
         # remove cuisine type
         for item in cuisine:
+            if item in rec_str:
+                rec_str.remove(item)
+
+        # remove any ingredient already in the ing_list
+        for item in ing_list:
             if item in rec_str:
                 rec_str.remove(item)
 
