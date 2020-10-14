@@ -5,6 +5,7 @@ To view the final app, please visit this website: <a href="http://18.222.227.112
 <p align="center">
 <img src="images/mainpage.png" alt="" width="300"/>
 </p>
+
 ## Project Summary 
 
 ### 1. Problem statement
